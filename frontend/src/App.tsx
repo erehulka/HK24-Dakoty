@@ -59,11 +59,12 @@ export default function App() {
           height: 350,
           flex: "none",
           color: 'white',
-          background: 'url(/2ka.jpg)',
-          backgroundSize: 'contain'
+          backgroundColor: blueGrey[700],
         }}
       >
-        
+        <Section bgColor={blueGrey[700]}>
+          <Typography variant="h5">Specify by how much you want the world's temperature to decrease and in how many years. After pressing submit, you will see the cost of such a change in the future.</Typography>
+        </Section>
       </Box>
       <Box 
         sx={{
@@ -78,7 +79,7 @@ export default function App() {
             <Slider 
               min={10}
               max={100}
-              title='Tchorčok'
+              title='Years'
               step={5}
               value={years}
               onChange={handleYearsChange}
@@ -90,7 +91,7 @@ export default function App() {
             <Slider
               min={0}
               max={10}
-              title='Pelé'
+              title='Degrees celsius'
               step={0.1}
               value={degrees}
               onChange={handleDegreesChange}
@@ -145,7 +146,7 @@ export default function App() {
             description='Kolko HDP'
           ></CustomCard>
         </Section> 
-        : <p>No data</p>
+        : ''
       }
     </>
   );
