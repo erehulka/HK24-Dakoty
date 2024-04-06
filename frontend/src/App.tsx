@@ -4,6 +4,7 @@ import Section from './components/Section';
 import { useState } from 'react';
 import Slider from './components/Slider'
 import CustomCard from './components/Card';
+import axios, { AxiosResponse } from 'axios';
 
 export default function App() {
   const [years, setYears] = useState<number>(10);
@@ -24,18 +25,12 @@ export default function App() {
 
   const handleClick = (): void => {
     setPrice(degrees * years);
-    const apiUrl: string = `https://example.com/api?years=${years}&degrees=${degrees}`;
+    const apiUrl: string = `http://127.0.0.1:5000/data`
 
-    fetch(apiUrl)
-      .then(response => {
-        if (!response.ok) {
-          throw new Error('Network response was not ok');
-        }
-        console.log('API call successful');
+    axios.post(apiUrl, {years, degrees})
+      .then((res: AxiosResponse<{result: number}>) => {
+        setPrice(res.data.result)
       })
-      .catch(error => {
-        console.error('There was a problem with the API call:', error);
-      });
   };
 
   return (
@@ -115,6 +110,7 @@ export default function App() {
       </Box>
       {price 
         ? <Section bgColor='white'>
+          {price}
           <CustomCard
             image='/usa.webp'
             text='ameriť'
