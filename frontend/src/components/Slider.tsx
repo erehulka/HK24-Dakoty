@@ -1,22 +1,15 @@
 import { Slider } from '@mui/material'
-import {useState} from 'react'
 
 interface SliderProps {
   min: number
   max: number
   step: number
   title: string
+  value: number | number[]
+  onChange: (event: Event, value: number | number[]) => void
 }
 
-export default function SliderCompo({ min, max, title, step }: SliderProps): JSX.Element {
-  const [value, setValue] = useState<number>(min)
-
-  const handleChange = (event: Event, newValue: number | number[]) => {
-    if (typeof newValue === 'number') {
-      setValue(newValue);
-    }
-  };
-
+export default function CustomSlider({ min, max, title, step, value, onChange }: SliderProps): JSX.Element {
   return (
     <div>
       <Slider
@@ -27,7 +20,7 @@ export default function SliderCompo({ min, max, title, step }: SliderProps): JSX
         min={min}
         max={max}
         value={value}
-        onChange={handleChange}
+        onChange={onChange}
       />
       <h2>{title}: {value}</h2>
     </div>
