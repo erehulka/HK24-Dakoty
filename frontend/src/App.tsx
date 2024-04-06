@@ -3,6 +3,7 @@ import { blueGrey, orange } from '@mui/material/colors';
 import Section from './components/Section';
 import { useState } from 'react';
 import Slider from './components/Slider'
+import CustomCard from './components/Card';
 
 export default function App() {
   const [years, setYears] = useState<number>(10);
@@ -58,10 +59,11 @@ export default function App() {
           height: 350,
           flex: "none",
           color: 'white',
-          backgroundColor: blueGrey[300]
+          background: 'url(/2ka.jpg)',
+          backgroundSize: 'contain'
         }}
       >
-        <Typography variant="h3">Banner</Typography>
+        
       </Box>
       <Box 
         sx={{
@@ -76,7 +78,7 @@ export default function App() {
             <Slider 
               min={10}
               max={100}
-              title='Years'
+              title='Tchorčok'
               step={5}
               value={years}
               onChange={handleYearsChange}
@@ -88,7 +90,7 @@ export default function App() {
             <Slider
               min={0}
               max={10}
-              title='Degrees'
+              title='Pelé'
               step={0.1}
               value={degrees}
               onChange={handleDegreesChange}
@@ -104,12 +106,47 @@ export default function App() {
           height: 50,
           flex: "none",
           color: 'white',
-          backgroundColor: blueGrey[900]
+          backgroundColor: orange[200],
+          paddingBottom: '8px',
         }}
       >
         <Button variant="contained" onClick={handleClick}>Submit</Button>
       </Box>
-      {price ? <p>{price}</p> : <p>No data</p>}
+      {price 
+        ? <Section bgColor='white'>
+          <CustomCard
+            image='/usa.webp'
+            text='ameriť'
+            color='blue'
+            description='Kolko HDP'
+          ></CustomCard>
+          <CustomCard
+            image='/usa.webp'
+            text='ameriťka'
+            color='blue'
+            description='Kolko HDP'
+          ></CustomCard>
+          <CustomCard
+            image='/usa.webp'
+            text='americ'
+            color='blue'
+            description='Kolko HDP'
+          ></CustomCard>
+          <CustomCard
+            image='/usa.webp'
+            text='ameriťulka'
+            color='blue'
+            description='Kolko HDP'
+          ></CustomCard>
+          <CustomCard
+            image='/usa.webp'
+            text='ameritisko'
+            color='blue'
+            description='Kolko HDP'
+          ></CustomCard>
+        </Section> 
+        : <p>No data</p>
+      }
     </>
   );
 }
