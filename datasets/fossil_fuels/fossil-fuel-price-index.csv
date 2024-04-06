@@ -1,0 +1,607 @@
+Entity,Code,Year,Coal price index,Oil spot crude price index,Gas price index
+Asian marker price,,1998,26.390877,,
+Asian marker price,,1999,24.905273,,
+Asian marker price,,2000,28.434568,,
+Asian marker price,,2001,33.032124,,
+Asian marker price,,2002,27.22341,,
+Asian marker price,,2003,32.704975,,
+Asian marker price,,2004,64.8354,,
+Asian marker price,,2005,55.366005,,
+Asian marker price,,2006,50.561424,,
+Asian marker price,,2007,75.71194,,
+Asian marker price,,2008,132.55818,,
+Asian marker price,,2009,70.55644,,
+Asian marker price,,2010,94.39333,,
+Asian marker price,,2011,112.573364,,
+Asian marker price,,2012,94.459,,
+Asian marker price,,2013,81.38075,,
+Asian marker price,,2014,69.7335,,
+Asian marker price,,2015,56.86716,,
+Asian marker price,,2016,63.676853,,
+Asian marker price,,2017,89.15105,,
+Asian marker price,,2018,100,,
+Asian marker price,,2019,79.666985,,
+Asian marker price,,2020,63.863995,,
+Asian marker price,,2021,129.96553,,
+Average German import price,,1984,,,60.17523
+Average German import price,,1985,,,64.06004
+Average German import price,,1986,,,59.16595
+Average German import price,,1987,,,38.366016
+Average German import price,,1988,,,33.439144
+Average German import price,,1989,,,30.12822
+Average German import price,,1990,,,41.805622
+Average German import price,,1991,,,48.69411
+Average German import price,,1992,,,40.643044
+Average German import price,,1993,,,37.821926
+Average German import price,,1994,,,35.398556
+Average German import price,,1995,,,36.598827
+Average German import price,,1996,,,37.60294
+Average German import price,,1997,,,40.13196
+Average German import price,,1998,,,35.098736
+Average German import price,,1999,,,28.0544
+Average German import price,,2000,,,43.82997
+Average German import price,,2001,,,55.226776
+Average German import price,,2002,,,48.376194
+Average German import price,,2003,,,61.192142
+Average German import price,,2004,,,64.78695
+Average German import price,,2005,,,87.80599
+Average German import price,,2006,,,118.58837
+Average German import price,,2007,,,120.39159
+Average German import price,,2008,,,174.70665
+Average German import price,,2009,,,128.48436
+Average German import price,,2010,,,120.949196
+Average German import price,,2011,,,158.0012
+Average German import price,,2012,,,164.54112
+Average German import price,,2013,,,161.54079
+Average German import price,,2014,,,137.27103
+Average German import price,,2015,,,101.19105
+Average German import price,,2016,,,74.26677
+Average German import price,,2017,,,84.70889
+Average German import price,,2018,,,100.00001
+Average German import price,,2019,,,75.75177
+Average German import price,,2020,,,61.18723
+Average German import price,,2021,,,134.58841
+Average German import price,,2022,,,364.00604
+Brent,,1976,,17.949781,
+Brent,,1977,,19.520388,
+Brent,,1978,,19.660622,
+Brent,,1979,,44.32755,
+Brent,,1980,,51.647697,
+Brent,,1981,,50.3856,
+Brent,,1982,,46.23471,
+Brent,,1983,,41.438755,
+Brent,,1984,,40.358963,
+Brent,,1985,,38.64812,
+Brent,,1986,,20.235575,
+Brent,,1987,,25.85195,
+Brent,,1988,,20.928102,
+Brent,,1989,,25.558966,
+Brent,,1990,,33.27135,
+Brent,,1991,,28.047815,
+Brent,,1992,,27.094126,
+Brent,,1993,,23.799776,
+Brent,,1994,,22.18148,
+Brent,,1995,,23.862946,
+Brent,,1996,,28.983973,
+Brent,,1997,,26.774048,
+Brent,,1998,,17.83151,
+Brent,,1999,,25.19992,
+Brent,,2000,,39.95993,
+Brent,,2001,,34.27832,
+Brent,,2002,,35.090782,
+Brent,,2003,,40.430065,
+Brent,,2004,,53.660034,
+Brent,,2005,,76.456375,
+Brent,,2006,,91.353264,
+Brent,,2007,,101.51314,
+Brent,,2008,,136.38466,
+Brent,,2009,,86.48326,
+Brent,,2010,,111.478714,
+Brent,,2011,,156.01671,
+Brent,,2012,,156.59741,
+Brent,,2013,,152.37474,
+Brent,,2014,,138.75462,
+Brent,,2015,,73.463356,
+Brent,,2016,,61.32959,
+Brent,,2017,,75.99551,
+Brent,,2018,,100,
+Brent,,2019,,90.0442,
+Brent,,2020,,58.67103,
+Brent,,2021,,99.44164,
+Brent,,2022,,142.08374,
+Canada (Alberta),,1990,,,88.80227
+Canada (Alberta),,1991,,,75.129555
+Canada (Alberta),,1992,,,82.81165
+Canada (Alberta),,1993,,,143.14081
+Canada (Alberta),,1994,,,122.843155
+Canada (Alberta),,1995,,,75.2705
+Canada (Alberta),,1996,,,94.7929
+Canada (Alberta),,1997,,,114.87914
+Canada (Alberta),,1998,,,120.305954
+Canada (Alberta),,1999,,,168.7948
+Canada (Alberta),,2000,,,316.93958
+Canada (Alberta),,2001,,,305.45163
+Canada (Alberta),,2002,,,217.49512
+Canada (Alberta),,2003,,,408.42007
+Canada (Alberta),,2004,,,425.5462
+Canada (Alberta),,2005,,,613.1586
+Canada (Alberta),,2006,,,493.34604
+Canada (Alberta),,2007,,,521.60767
+Canada (Alberta),,2008,,,675.74304
+Canada (Alberta),,2009,,,286.0702
+Canada (Alberta),,2010,,,311.73026
+Canada (Alberta),,2011,,,293.85727
+Canada (Alberta),,2012,,,191.85172
+Canada (Alberta),,2013,,,247.46362
+Canada (Alberta),,2014,,,327.16217
+Canada (Alberta),,2015,,,169.76645
+Canada (Alberta),,2016,,,131.12755
+Canada (Alberta),,2017,,,133.5995
+Canada (Alberta),,2018,,,100
+Canada (Alberta),,2019,,,107.212036
+Canada (Alberta),,2020,,,133.75899
+Canada (Alberta),,2021,,,232.86613
+China Qinhuangdao spot price,,2000,27.6742,,
+China Qinhuangdao spot price,,2001,31.96083,,
+China Qinhuangdao spot price,,2002,33.379536,,
+China Qinhuangdao spot price,,2003,31.920975,,
+China Qinhuangdao spot price,,2004,42.998344,,
+China Qinhuangdao spot price,,2005,51.627163,,
+China Qinhuangdao spot price,,2006,53.82402,,
+China Qinhuangdao spot price,,2007,61.56845,,
+China Qinhuangdao spot price,,2008,105.556145,,
+China Qinhuangdao spot price,,2009,88.350494,,
+China Qinhuangdao spot price,,2010,110.691605,,
+China Qinhuangdao spot price,,2011,127.976425,,
+China Qinhuangdao spot price,,2012,112.51218,,
+China Qinhuangdao spot price,,2013,95.94947,,
+China Qinhuangdao spot price,,2014,84.58439,,
+China Qinhuangdao spot price,,2015,67.90758,,
+China Qinhuangdao spot price,,2016,71.7458,,
+China Qinhuangdao spot price,,2017,95.25044,,
+China Qinhuangdao spot price,,2018,100,,
+China Qinhuangdao spot price,,2019,86.36893,,
+China Qinhuangdao spot price,,2020,83.55748,,
+China Qinhuangdao spot price,,2021,154.40056,,
+Dubai,,1972,,2.7083895,
+Dubai,,1973,,4.0388265,
+Dubai,,1974,,14.842688,
+Dubai,,1975,,15.256075,
+Dubai,,1976,,16.571068,
+Dubai,,1977,,17.64017,
+Dubai,,1978,,18.56791,
+Dubai,,1979,,42.41362,
+Dubai,,1980,,50.877335,
+Dubai,,1981,,48.92326,
+Dubai,,1982,,45.329887,
+Dubai,,1983,,41.02379,
+Dubai,,1984,,39.99864,
+Dubai,,1985,,39.24314,
+Dubai,,1986,,18.673635,
+Dubai,,1987,,24.162075,
+Dubai,,1988,,18.78656,
+Dubai,,1989,,22.218752,
+Dubai,,1990,,28.806526,
+Dubai,,1991,,23.799265,
+Dubai,,1992,,24.48329,
+Dubai,,1993,,21.363667,
+Dubai,,1994,,20.93715,
+Dubai,,1995,,22.928364,
+Dubai,,1996,,27.450167,
+Dubai,,1997,,26.09683,
+Dubai,,1998,,17.533655,
+Dubai,,1999,,24.086199,
+Dubai,,2000,,37.443134,
+Dubai,,2001,,32.47688,
+Dubai,,2002,,33.645557,
+Dubai,,2003,,38.133415,
+Dubai,,2004,,47.771477,
+Dubai,,2005,,66.68866,
+Dubai,,2006,,87.63219,
+Dubai,,2007,,96.81928,
+Dubai,,2008,,134.39081,
+Dubai,,2009,,87.15922,
+Dubai,,2010,,110.8701,
+Dubai,,2011,,150.99477,
+Dubai,,2012,,155.45732,
+Dubai,,2013,,150.33868,
+Dubai,,2014,,138.29323,
+Dubai,,2015,,73.00998,
+Dubai,,2016,,58.47889,
+Dubai,,2017,,75.57162,
+Dubai,,2018,,100,
+Dubai,,2019,,90.812675,
+Dubai,,2020,,60.460236,
+Dubai,,2021,,98.23035,
+Dubai,,2022,,137.38663,
+Japan coking coal import CIF price,,1987,33.71716,,
+Japan coking coal import CIF price,,1988,34.742443,,
+Japan coking coal import CIF price,,1989,37.026463,,
+Japan coking coal import CIF price,,1990,38.19529,,
+Japan coking coal import CIF price,,1991,38.140606,,
+Japan coking coal import CIF price,,1992,36.478596,,
+Japan coking coal import CIF price,,1993,34.864956,,
+Japan coking coal import CIF price,,1994,32.660854,,
+Japan coking coal import CIF price,,1995,34.36651,,
+Japan coking coal import CIF price,,1996,35.76142,,
+Japan coking coal import CIF price,,1997,35.023743,,
+Japan coking coal import CIF price,,1998,32.02465,,
+Japan coking coal import CIF price,,1999,27.02389,,
+Japan coking coal import CIF price,,2000,25.044825,,
+Japan coking coal import CIF price,,2001,26.076418,,
+Japan coking coal import CIF price,,2002,26.50809,,
+Japan coking coal import CIF price,,2003,26.228373,,
+Japan coking coal import CIF price,,2004,38.46239,,
+Japan coking coal import CIF price,,2005,56.36229,,
+Japan coking coal import CIF price,,2006,58.96967,,
+Japan coking coal import CIF price,,2007,55.67614,,
+Japan coking coal import CIF price,,2008,112.95594,,
+Japan coking coal import CIF price,,2009,105.88672,,
+Japan coking coal import CIF price,,2010,100.28603,,
+Japan coking coal import CIF price,,2011,144.56416,,
+Japan coking coal import CIF price,,2012,120.803314,,
+Japan coking coal import CIF price,,2013,88.61408,,
+Japan coking coal import CIF price,,2014,72.188484,,
+Japan coking coal import CIF price,,2015,59.211006,,
+Japan coking coal import CIF price,,2016,56.405403,,
+Japan coking coal import CIF price,,2017,94.64329,,
+Japan coking coal import CIF price,,2018,100,,
+Japan coking coal import CIF price,,2019,93.706856,,
+Japan coking coal import CIF price,,2020,68.40072,,
+Japan coking coal import CIF price,,2021,85.0891,,
+Japan steam coal import CIF price,,1987,35.166004,,
+Japan steam coal import CIF price,,1988,36.174744,,
+Japan steam coal import CIF price,,1989,41.62378,,
+Japan steam coal import CIF price,,1990,43.286316,,
+Japan steam coal import CIF price,,1991,42.844772,,
+Japan steam coal import CIF price,,1992,41.275936,,
+Japan steam coal import CIF price,,1993,38.939724,,
+Japan steam coal import CIF price,,1994,37.19342,,
+Japan steam coal import CIF price,,1995,40.527016,,
+Japan steam coal import CIF price,,1996,42.197357,,
+Japan steam coal import CIF price,,1997,38.78355,,
+Japan steam coal import CIF price,,1998,34.505817,,
+Japan steam coal import CIF price,,1999,30.446016,,
+Japan steam coal import CIF price,,2000,29.457157,,
+Japan steam coal import CIF price,,2001,32.337845,,
+Japan steam coal import CIF price,,2002,31.432749,,
+Japan steam coal import CIF price,,2003,29.593454,,
+Japan steam coal import CIF price,,2004,43.73425,,
+Japan steam coal import CIF price,,2005,53.590218,,
+Japan steam coal import CIF price,,2006,53.697407,,
+Japan steam coal import CIF price,,2007,59.51132,,
+Japan steam coal import CIF price,,2008,104.61635,,
+Japan steam coal import CIF price,,2009,93.79495,,
+Japan steam coal import CIF price,,2010,89.6024,,
+Japan steam coal import CIF price,,2011,116.029785,,
+Japan steam coal import CIF price,,2012,113.81922,,
+Japan steam coal import CIF price,,2013,94.6901,,
+Japan steam coal import CIF price,,2014,83.18722,,
+Japan steam coal import CIF price,,2015,67.69694,,
+Japan steam coal import CIF price,,2016,62.15704,,
+Japan steam coal import CIF price,,2017,84.4721,,
+Japan steam coal import CIF price,,2018,100,,
+Japan steam coal import CIF price,,2019,92.495155,,
+Japan steam coal import CIF price,,2020,68.57435,,
+Japan steam coal import CIF price,,2021,111.05405,,
+Japan steam spot CIF price,,2001,33.432774,,
+Japan steam spot CIF price,,2002,27.919645,,
+Japan steam spot CIF price,,2003,35.13832,,
+Japan steam spot CIF price,,2004,65.8331,,
+Japan steam spot CIF price,,2005,57.32386,,
+Japan steam spot CIF price,,2006,57.85113,,
+Japan steam spot CIF price,,2007,84.78952,,
+Japan steam spot CIF price,,2008,140.04512,,
+Japan steam spot CIF price,,2009,74.14549,,
+Japan steam spot CIF price,,2010,96.21407,,
+Japan steam spot CIF price,,2011,111.88426,,
+Japan steam spot CIF price,,2012,88.96956,,
+Japan steam spot CIF price,,2013,79.89209,,
+Japan steam spot CIF price,,2014,67.53105,,
+Japan steam spot CIF price,,2015,53.308006,,
+Japan steam spot CIF price,,2016,63.564137,,
+Japan steam spot CIF price,,2017,85.17863,,
+Japan steam spot CIF price,,2018,100,,
+Japan steam spot CIF price,,2019,75.823296,,
+Japan steam spot CIF price,,2020,61.210827,,
+Japan steam spot CIF price,,2021,137.85706,,
+Japan steam spot CIF price,,2022,199.82455,,
+LNG Japan CIF,,1984,,,50.66063
+LNG Japan CIF,,1985,,,51.998207
+LNG Japan CIF,,1986,,,40.746845
+LNG Japan CIF,,1987,,,33.30329
+LNG Japan CIF,,1988,,,33.21856
+LNG Japan CIF,,1989,,,32.574097
+LNG Japan CIF,,1990,,,36.203213
+LNG Japan CIF,,1991,,,39.594185
+LNG Japan CIF,,1992,,,35.985287
+LNG Japan CIF,,1993,,,34.98586
+LNG Japan CIF,,1994,,,31.587343
+LNG Japan CIF,,1995,,,34.382793
+LNG Japan CIF,,1996,,,36.38872
+LNG Japan CIF,,1997,,,38.803207
+LNG Japan CIF,,1998,,,30.293602
+LNG Japan CIF,,1999,,,31.165136
+LNG Japan CIF,,2000,,,46.918205
+LNG Japan CIF,,2001,,,46.06802
+LNG Japan CIF,,2002,,,42.449654
+LNG Japan CIF,,2003,,,47.374435
+LNG Japan CIF,,2004,,,51.4755
+LNG Japan CIF,,2005,,,60.07465
+LNG Japan CIF,,2006,,,70.77659
+LNG Japan CIF,,2007,,,76.77347
+LNG Japan CIF,,2008,,,124.64813
+LNG Japan CIF,,2009,,,89.96537
+LNG Japan CIF,,2010,,,108.58514
+LNG Japan CIF,,2011,,,146.7423
+LNG Japan CIF,,2012,,,166.42389
+LNG Japan CIF,,2013,,,160.66533
+LNG Japan CIF,,2014,,,162.22954
+LNG Japan CIF,,2015,,,101.98261
+LNG Japan CIF,,2016,,,68.86984
+LNG Japan CIF,,2017,,,80.44381
+LNG Japan CIF,,2018,,,100
+LNG Japan CIF,,2019,,,98.78491
+LNG Japan CIF,,2020,,,77.29632
+LNG Japan CIF,,2021,,,100.05712
+LNG Japan Korea Marker (JKM),,2009,,,54.051083
+LNG Japan Korea Marker (JKM),,2010,,,79.10427
+LNG Japan Korea Marker (JKM),,2011,,,143.64754
+LNG Japan Korea Marker (JKM),,2012,,,154.8774
+LNG Japan Korea Marker (JKM),,2013,,,169.63905
+LNG Japan Korea Marker (JKM),,2014,,,141.97102
+LNG Japan Korea Marker (JKM),,2015,,,76.33093
+LNG Japan Korea Marker (JKM),,2016,,,58.636436
+LNG Japan Korea Marker (JKM),,2017,,,73.042
+LNG Japan Korea Marker (JKM),,2018,,,100
+LNG Japan Korea Marker (JKM),,2019,,,56.292007
+LNG Japan Korea Marker (JKM),,2020,,,44.94893
+LNG Japan Korea Marker (JKM),,2021,,,190.52692
+LNG Japan Korea Marker (JKM),,2022,,,348.1557
+Netherlands TTF index (DA ICIS Heren TTF index),,2005,,,76.8681
+Netherlands TTF index (DA ICIS Heren TTF index),,2006,,,94.371124
+Netherlands TTF index (DA ICIS Heren TTF index),,2007,,,75.09073
+Netherlands TTF index (DA ICIS Heren TTF index),,2008,,,134.86324
+Netherlands TTF index (DA ICIS Heren TTF index),,2009,,,62.761887
+Netherlands TTF index (DA ICIS Heren TTF index),,2010,,,85.66302
+Netherlands TTF index (DA ICIS Heren TTF index),,2011,,,117.17126
+Netherlands TTF index (DA ICIS Heren TTF index),,2012,,,119.56056
+Netherlands TTF index (DA ICIS Heren TTF index),,2013,,,123.432915
+Netherlands TTF index (DA ICIS Heren TTF index),,2014,,,103.05434
+Netherlands TTF index (DA ICIS Heren TTF index),,2015,,,81.45634
+Netherlands TTF index (DA ICIS Heren TTF index),,2016,,,57.44749
+Netherlands TTF index (DA ICIS Heren TTF index),,2017,,,72.39689
+Netherlands TTF index (DA ICIS Heren TTF index),,2018,,,100
+Netherlands TTF index (DA ICIS Heren TTF index),,2019,,,56.283924
+Netherlands TTF index (DA ICIS Heren TTF index),,2020,,,38.849167
+Netherlands TTF index (DA ICIS Heren TTF index),,2021,,,202.67827
+Netherlands TTF index (DA ICIS Heren TTF index),,2022,,,474.2602
+Newcastle Thermal Coal FOB,,2018,100,,
+Newcastle Thermal Coal FOB,,2019,98.62437,,
+Newcastle Thermal Coal FOB,,2020,62.04502,,
+Newcastle Thermal Coal FOB,,2021,115.44424,,
+Newcastle Thermal Coal FOB,,2022,241.9542,,
+Nigerian Forcados,,1976,,17.75991,
+Nigerian Forcados,,1977,,19.60904,
+Nigerian Forcados,,1978,,18.83627,
+Nigerian Forcados,,1979,,40.363438,
+Nigerian Forcados,,1980,,51.030422,
+Nigerian Forcados,,1981,,49.92647,
+Nigerian Forcados,,1982,,45.938423,
+Nigerian Forcados,,1983,,40.763622,
+Nigerian Forcados,,1984,,38.831802,
+Nigerian Forcados,,1985,,38.29854,
+Nigerian Forcados,,1986,,19.950047,
+Nigerian Forcados,,1987,,25.382557,
+Nigerian Forcados,,1988,,20.695204,
+Nigerian Forcados,,1989,,25.253777,
+Nigerian Forcados,,1990,,32.916172,
+Nigerian Forcados,,1991,,27.75451,
+Nigerian Forcados,,1992,,27.066498,
+Nigerian Forcados,,1993,,24.02871,
+Nigerian Forcados,,1994,,22.425392,
+Nigerian Forcados,,1995,,23.817421,
+Nigerian Forcados,,1996,,29.2017,
+Nigerian Forcados,,1997,,26.67399,
+Nigerian Forcados,,1998,,17.423597,
+Nigerian Forcados,,1999,,24.816761,
+Nigerian Forcados,,2000,,39.214848,
+Nigerian Forcados,,2001,,33.431538,
+Nigerian Forcados,,2002,,34.55247,
+Nigerian Forcados,,2003,,39.582172,
+Nigerian Forcados,,2004,,52.617573,
+Nigerian Forcados,,2005,,76.84767,
+Nigerian Forcados,,2006,,92.54692,
+Nigerian Forcados,,2007,,102.78282,
+Nigerian Forcados,,2008,,139.96916,
+Nigerian Forcados,,2009,,87.41679,
+Nigerian Forcados,,2010,,111.85066,
+Nigerian Forcados,,2011,,156.83029,
+Nigerian Forcados,,2012,,157.60657,
+Nigerian Forcados,,2013,,154.47853,
+Nigerian Forcados,,2014,,139.85625,
+Nigerian Forcados,,2015,,75.08012,
+Nigerian Forcados,,2016,,61.462433,
+Nigerian Forcados,,2017,,74.9466,
+Nigerian Forcados,,2018,,100,
+Nigerian Forcados,,2019,,89.6236,
+Nigerian Forcados,,2020,,58.38519,
+Nigerian Forcados,,2021,,96.26597,
+Nigerian Forcados,,2022,,139.92657,
+Northwest Europe,,1987,34.085815,,
+Northwest Europe,,1988,43.494804,,
+Northwest Europe,,1989,45.825275,,
+Northwest Europe,,1990,47.34988,,
+Northwest Europe,,1991,46.609356,,
+Northwest Europe,,1992,41.959312,,
+Northwest Europe,,1993,36.677643,,
+Northwest Europe,,1994,40.489155,,
+Northwest Europe,,1995,48.460663,,
+Northwest Europe,,1996,44.921402,,
+Northwest Europe,,1997,42.384018,,
+Northwest Europe,,1998,34.848118,,
+Northwest Europe,,1999,31.352415,,
+Northwest Europe,,2000,39.193245,,
+Northwest Europe,,2001,42.50842,,
+Northwest Europe,,2002,34.46655,,
+Northwest Europe,,2003,47.478256,,
+Northwest Europe,,2004,78.55456,,
+Northwest Europe,,2005,65.927444,,
+Northwest Europe,,2006,69.81393,,
+Northwest Europe,,2007,96.6874,,
+Northwest Europe,,2008,160.81715,,
+Northwest Europe,,2009,76.65371,,
+Northwest Europe,,2010,100.73242,,
+Northwest Europe,,2011,132.29216,,
+Northwest Europe,,2012,100.73242,,
+Northwest Europe,,2013,88.95966,,
+Northwest Europe,,2014,82.08993,,
+Northwest Europe,,2015,61.848915,,
+Northwest Europe,,2016,65.433495,,
+Northwest Europe,,2017,92.03214,,
+Northwest Europe,,2018,100.00001,,
+Northwest Europe,,2019,66.27159,,
+Northwest Europe,,2020,54.62907,,
+Northwest Europe,,2021,132.53152,,
+Northwest Europe,,2022,319.76154,,
+UK NBP (ICIS NBP Index),,1996,,,23.147785
+UK NBP (ICIS NBP Index),,1997,,,24.275995
+UK NBP (ICIS NBP Index),,1998,,,23.13403
+UK NBP (ICIS NBP Index),,1999,,,19.588682
+UK NBP (ICIS NBP Index),,2000,,,33.628517
+UK NBP (ICIS NBP Index),,2001,,,39.38217
+UK NBP (ICIS NBP Index),,2002,,,29.43266
+UK NBP (ICIS NBP Index),,2003,,,41.327675
+UK NBP (ICIS NBP Index),,2004,,,55.292995
+UK NBP (ICIS NBP Index),,2005,,,91.58868
+UK NBP (ICIS NBP Index),,2006,,,97.65524
+UK NBP (ICIS NBP Index),,2007,,,74.51051
+UK NBP (ICIS NBP Index),,2008,,,133.88527
+UK NBP (ICIS NBP Index),,2009,,,60.165318
+UK NBP (ICIS NBP Index),,2010,,,81.33045
+UK NBP (ICIS NBP Index),,2011,,,112.173965
+UK NBP (ICIS NBP Index),,2012,,,117.408966
+UK NBP (ICIS NBP Index),,2013,,,131.97223
+UK NBP (ICIS NBP Index),,2014,,,102.38364
+UK NBP (ICIS NBP Index),,2015,,,80.95769
+UK NBP (ICIS NBP Index),,2016,,,58.18269
+UK NBP (ICIS NBP Index),,2017,,,72.009766
+UK NBP (ICIS NBP Index),,2018,,,99.99999
+UK NBP (ICIS NBP Index),,2019,,,55.413494
+UK NBP (ICIS NBP Index),,2020,,,42.425854
+UK NBP (ICIS NBP Index),,2021,,,196.02737
+UK NBP (ICIS NBP Index),,2022,,,311.37103
+US Central Appalachian coal spot price index,,1990,43.369274,,
+US Central Appalachian coal spot price index,,1991,39.825558,,
+US Central Appalachian coal spot price index,,1992,39.172115,,
+US Central Appalachian coal spot price index,,1993,40.983406,,
+US Central Appalachian coal spot price index,,1994,43.539856,,
+US Central Appalachian coal spot price index,,1995,37.074223,,
+US Central Appalachian coal spot price index,,1996,40.994873,,
+US Central Appalachian coal spot price index,,1997,40.854424,,
+US Central Appalachian coal spot price index,,1998,42.560955,,
+US Central Appalachian coal spot price index,,1999,42.9607,,
+US Central Appalachian coal spot price index,,2000,41.052765,,
+US Central Appalachian coal spot price index,,2001,68.852135,,
+US Central Appalachian coal spot price index,,2002,45.574074,,
+US Central Appalachian coal spot price index,,2003,52.883835,,
+US Central Appalachian coal spot price index,,2004,89.096886,,
+US Central Appalachian coal spot price index,,2005,96.26372,,
+US Central Appalachian coal spot price index,,2006,79.37058,,
+US Central Appalachian coal spot price index,,2007,68.27354,,
+US Central Appalachian coal spot price index,,2008,161.19052,,
+US Central Appalachian coal spot price index,,2009,83.37626,,
+US Central Appalachian coal spot price index,,2010,93.17735,,
+US Central Appalachian coal spot price index,,2011,116.35134,,
+US Central Appalachian coal spot price index,,2012,92.36362,,
+US Central Appalachian coal spot price index,,2013,95.70757,,
+US Central Appalachian coal spot price index,,2014,92.09288,,
+US Central Appalachian coal spot price index,,2015,70.79023,,
+US Central Appalachian coal spot price index,,2016,70.627266,,
+US Central Appalachian coal spot price index,,2017,87.61914,,
+US Central Appalachian coal spot price index,,2018,100,,
+US Central Appalachian coal spot price index,,2019,78.47452,,
+US Central Appalachian coal spot price index,,2020,58.70952,,
+US Central Appalachian coal spot price index,,2021,94.08892,,
+US Central Appalachian coal spot price index,,2022,216.30742,,
+US Henry Hub,,1989,,,54.442364
+US Henry Hub,,1990,,,52.570576
+US Henry Hub,,1991,,,47.70392
+US Henry Hub,,1992,,,56.84895
+US Henry Hub,,1993,,,68.052956
+US Henry Hub,,1994,,,61.608643
+US Henry Hub,,1995,,,54.12148
+US Henry Hub,,1996,,,88.455475
+US Henry Hub,,1997,,,81.0218
+US Henry Hub,,1998,,,66.8764
+US Henry Hub,,1999,,,72.705696
+US Henry Hub,,2000,,,135.59785
+US Henry Hub,,2001,,,130.544
+US Henry Hub,,2002,,,106.87924
+US Henry Hub,,2003,,,180.49408
+US Henry Hub,,2004,,,187.6871
+US Henry Hub,,2005,,,281.9184
+US Henry Hub,,2006,,,217.04747
+US Henry Hub,,2007,,,223.01045
+US Henry Hub,,2008,,,283.9506
+US Henry Hub,,2009,,,124.92864
+US Henry Hub,,2010,,,140.82867
+US Henry Hub,,2011,,,128.64117
+US Henry Hub,,2012,,,88.41391
+US Henry Hub,,2013,,,118.95891
+US Henry Hub,,2014,,,139.50961
+US Henry Hub,,2015,,,83.546036
+US Henry Hub,,2016,,,78.99509
+US Henry Hub,,2017,,,94.99874
+US Henry Hub,,2018,,,99.99999
+US Henry Hub,,2019,,,80.601425
+US Henry Hub,,2020,,,63.809307
+US Henry Hub,,2021,,,123.20038
+US Henry Hub,,2022,,,206.86388
+West Texas Intermediate,,1976,,18.756323,
+West Texas Intermediate,,1977,,21.808252,
+West Texas Intermediate,,1978,,22.314352,
+West Texas Intermediate,,1979,,38.4635,
+West Texas Intermediate,,1980,,58.216682,
+West Texas Intermediate,,1981,,55.333458,
+West Texas Intermediate,,1982,,51.60673,
+West Texas Intermediate,,1983,,46.46906,
+West Texas Intermediate,,1984,,45.074486,
+West Texas Intermediate,,1985,,42.918243,
+West Texas Intermediate,,1986,,23.083313,
+West Texas Intermediate,,1987,,29.424969,
+West Texas Intermediate,,1988,,24.510014,
+West Texas Intermediate,,1989,,30.173018,
+West Texas Intermediate,,1990,,37.51844,
+West Texas Intermediate,,1991,,33.021343,
+West Texas Intermediate,,1992,,31.545542,
+West Texas Intermediate,,1993,,28.295395,
+West Texas Intermediate,,1994,,26.38709,
+West Texas Intermediate,,1995,,28.253407,
+West Texas Intermediate,,1996,,33.986656,
+West Texas Intermediate,,1997,,31.612982,
+West Texas Intermediate,,1998,,22.062597,
+West Texas Intermediate,,1999,,29.620667,
+West Texas Intermediate,,2000,,46.571182,
+West Texas Intermediate,,2001,,39.76984,
+West Texas Intermediate,,2002,,40.12335,
+West Texas Intermediate,,2003,,47.638058,
+West Texas Intermediate,,2004,,63.626865,
+West Texas Intermediate,,2005,,86.789635,
+West Texas Intermediate,,2006,,101.2761,
+West Texas Intermediate,,2007,,110.733345,
+West Texas Intermediate,,2008,,153.45895,
+West Texas Intermediate,,2009,,94.96661,
+West Texas Intermediate,,2010,,121.84624,
+West Texas Intermediate,,2011,,145.75018,
+West Texas Intermediate,,2012,,144.35562,
+West Texas Intermediate,,2013,,150.28412,
+West Texas Intermediate,,2014,,143.06128,
+West Texas Intermediate,,2015,,74.69926,
+West Texas Intermediate,,2016,,66.47178,
+West Texas Intermediate,,2017,,77.897255,
+West Texas Intermediate,,2018,,100.00001,
+West Texas Intermediate,,2019,,87.463486,
+West Texas Intermediate,,2020,,60.18758,
+West Texas Intermediate,,2021,,104.434044,
+West Texas Intermediate,,2022,,145.05095,
