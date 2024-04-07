@@ -43,7 +43,7 @@ export default function App() {
   };
 
   return (
-    <>
+    <div>
       <AppBar 
         elevation={0}
         sx={{
@@ -63,11 +63,16 @@ export default function App() {
           height: 350,
           flex: "none",
           color: 'white',
-          backgroundColor: blueGrey[700],
+          //backgroundColor: blueGrey[700],
+          background: 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/banner.jpg)',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center center'
         }}
       >
-        <Section bgColor={blueGrey[700]}>
-          <Typography variant="h5">Specify by how much you want the world's temperature to decrease and in how many years. After pressing submit, you will see the cost of such a change in the future.</Typography>
+        <Section bgColor='transparent'>
+          <Typography variant="h4" sx={{
+            fontWeight: 'bold'
+          }}>Specify by how much you want the world's temperature to decrease and in how many years. After pressing submit, you will see the cost of such a change in the future.</Typography>
         </Section>
       </Box>
       <Box 
@@ -81,7 +86,7 @@ export default function App() {
         <Section bgColor={orange[200]}>
           <div>
             <Slider 
-              min={10}
+              min={5}
               max={100}
               title='Years'
               step={5}
@@ -93,8 +98,8 @@ export default function App() {
         <Section bgColor={orange[200]}>
           <div>
             <Slider
-              min={0}
-              max={10}
+              min={0.1}
+              max={3}
               title='Degrees celsius'
               step={0.1}
               value={degrees}
@@ -119,15 +124,16 @@ export default function App() {
       </Box>
       {price 
         ? <Section bgColor='white'>
+          <Typography variant='h4' textAlign='center'>{price.toFixed(2)}€</Typography>
           <CustomCard
-            image='/eu.png'
+            image='/eu.jpg'
             text='Annual GDP in EU'
             color='blue'
             description={<>
               <strong style={{ fontWeight: 'bold', fontSize: '1.2em' }}>{formatPrice(price, GDP_EU_ANNUAL)}</strong> <strong>annual GDP</strong> in whole EU are needed to be paid.</>}
           ></CustomCard>
           <CustomCard
-            image='/svk.png'
+            image='/svk_money.png'
             text='Annual salaries in Slovakia'
             color='blue'
             description={<>
@@ -150,6 +156,6 @@ export default function App() {
         </Section> 
         : ''
       }
-    </>
+    </div>
   );
 }
