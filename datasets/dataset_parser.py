@@ -1,4 +1,6 @@
 import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
 
 fuel_consumption_df = pd.read_csv('fossil_fuels/fossil-fuel-consumption-by-type.csv')
 price_index_df = pd.read_csv('fossil_fuels/fossil-fuel-price-index.csv')
@@ -38,7 +40,7 @@ gas_price_df = gas_price_df.rename(columns={"Gas price index" : "Gas price"})
 
 slovak_price_index_df = coal_price_df.join(oil_price_df.set_index("Year"), on="Year").join(gas_price_df.set_index("Year"), on="Year")
 
-slovakia_fossil_fuel_df = slovak_price_index_df.join(filter_country(fuel_consumption_df, "Slovakia")[["Year", "Coal consumption - TWh", "Oil consumption - TWh", "Gas consumption - TWh"]].set_index("Year"), on="Year")
+slovakia_fossil_fuel_df = slovak_price_index_df.join(filter_country(fuel_consumption_df, "World")[["Year", "Coal consumption - TWh", "Oil consumption - TWh", "Gas consumption - TWh"]].set_index("Year"), on="Year")
 
 # Total price of energy = sum ( price * consumption )
 # Total consumption = sum ( consumption )
@@ -50,5 +52,28 @@ slovakia_fossil_fuel_df["Total price"] = (slovakia_fossil_fuel_df["Coal consumpt
 
 
 
+historic_data_df = pd.read_csv("fossil_fuels/historic_data_csv.csv")
+historic_data_df = historic_data_df[historic_data_df["year"] >= first_year]
+
+color1 = "red"
+color2 = "blue"
+
+fig, ax1 = plt.subplots()
+plt.title("DOstanes na hubu")
+ax1.set_xlabel("Year")
+ax1.set_ylabel("Total consumption [TWh]", color = color1)
+ax1.plot(slovakia_fossil_fuel_df["Year"], slovakia_fossil_fuel_df["Total consumption - TWh"], color = color1)
+ax1.tick_params(axis='y', labelcolor=color1)
+
+ax2 = ax1.twinx()
+ax2.set_ylabel("Average temp. [deg. C]", color = color2)
+ax2.plot(historic_data_df["year"], historic_data_df["temperature"], color = color2)
+ax2.tick_params(axis='y', labelcolor=color2)
+
+fig.tight_layout()
+plt.show()
+
+
 
 print(slovakia_fossil_fuel_df.to_string())
+print(historic_data_df.to_string())
