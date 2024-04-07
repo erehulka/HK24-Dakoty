@@ -5,15 +5,15 @@ import matplotlib.pyplot as plt
 fuel_consumption_df = pd.read_csv('fossil_fuels/fossil-fuel-consumption-by-type.csv')
 price_index_df = pd.read_csv('fossil_fuels/fossil-fuel-price-index.csv')
 
-print(price_index_df.to_string())
+#print(price_index_df.to_string())
 
 fuel_consumption_df_countries = fuel_consumption_df.Entity.unique()
-print(fuel_consumption_df_countries)
+#print(fuel_consumption_df_countries)
 
 def filter_country(cur_df, country):
     return(cur_df[cur_df['Entity']==country])
 
-print(filter_country(fuel_consumption_df, "Slovakia"))
+#print(filter_country(fuel_consumption_df, "Slovakia"))
 
 first_year = 1987
 coal_price_reference = 91.83 # USD / metric ton, https://ycharts.com/indicators/northwest_europe_coal_marker_price
@@ -61,8 +61,11 @@ color2 = "blue"
 fig, ax1 = plt.subplots()
 plt.title("DOstanes na hubu")
 ax1.set_xlabel("Year")
-ax1.set_ylabel("Total consumption [TWh]", color = color1)
+"""ax1.set_ylabel("Total consumption [TWh]", color = color1)
 ax1.plot(slovakia_fossil_fuel_df["Year"], slovakia_fossil_fuel_df["Total consumption - TWh"], color = color1)
+ax1.tick_params(axis='y', labelcolor=color1)"""
+ax1.set_ylabel("Total cum. fossil market turnover [USD]", color = color1)
+ax1.plot(slovakia_fossil_fuel_df["Year"], np.cumsum(slovakia_fossil_fuel_df["Total consumption - TWh"] * slovakia_fossil_fuel_df["Total price"]), color = color1)
 ax1.tick_params(axis='y', labelcolor=color1)
 
 ax2 = ax1.twinx()
@@ -73,7 +76,12 @@ ax2.tick_params(axis='y', labelcolor=color2)
 fig.tight_layout()
 plt.show()
 
+total_temp_dif = np.array(historic_data_df["temperature"])[-1] - np.array(historic_data_df["temperature"])[0]
+total_price = np.sum(slovakia_fossil_fuel_df["Total consumption - TWh"] * slovakia_fossil_fuel_df["Total price"])
 
+total_price_per_degree_celsius = total_price / total_temp_dif
 
-print(slovakia_fossil_fuel_df.to_string())
-print(historic_data_df.to_string())
+print("-----------------------------------------------------")
+print(f"--- It costs {int(np.floor(total_price_per_degree_celsius / 1000000000000))} trillion dollars to raise ----")
+print("--- the Earth's temperature by one degree Celsius ---")
+print("-----------------------------------------------------")
