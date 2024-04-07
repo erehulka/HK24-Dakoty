@@ -4,7 +4,7 @@ interface CardProps {
   image: string
   text: string
   color: string
-  description: string
+  description: any
 }
 
 export default function CustomCard({ image, text, color, description }: CardProps): JSX.Element {
@@ -13,7 +13,7 @@ export default function CustomCard({ image, text, color, description }: CardProp
       <Card sx={{ display: 'flex', marginBottom: '1em', borderColor: color }}>
         <CardMedia
           component="img"
-          sx={{ width: 151 }}
+          sx={{ width: 151, height: 100 }}
           image={image}
           alt={text}
         />
@@ -23,7 +23,7 @@ export default function CustomCard({ image, text, color, description }: CardProp
               { text }
             </Typography>
           </CardContent>
-          <Box sx={{ display: 'flex', alignItems: 'center', pl: 1, pb: 1 }}>
+          <Box sx={{ display: 'inline', pl: 1, pb: 1 }}>
             { description }
           </Box>
         </Box>
