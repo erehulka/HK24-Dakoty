@@ -110,7 +110,7 @@ export default function App() {
           <div>
             <Slider
               min={0.1}
-              max={3}
+              max={Math.round(years / 36 * 10) / 10}
               title='Degrees celsius'
               step={0.1}
               value={degrees}
