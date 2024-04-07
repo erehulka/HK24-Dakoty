@@ -6,6 +6,11 @@ import Slider from './components/Slider'
 import CustomCard from './components/Card';
 import axios, { AxiosResponse } from 'axios';
 
+const GDP_EU_ANNUAL = 19_350_000_000_000
+const SLOVAKIA_ANNUAL_SALARY = 18528
+const SKODA_FABIA_PRICE = 16_550
+const IPHONE_15_PRO_MAX = 1270
+
 export default function App() {
   const [years, setYears] = useState<number>(10);
   const [degrees, setDegrees] = useState<number>(0);
@@ -22,6 +27,10 @@ export default function App() {
       setDegrees(newValue);
     }
   };
+
+  const formatPrice = (price: number, constant: number): string => {
+    return (price / constant).toFixed(2)
+  }
 
   const handleClick = (): void => {
     setPrice(degrees * years);
@@ -110,36 +119,33 @@ export default function App() {
       </Box>
       {price 
         ? <Section bgColor='white'>
-          {price}
           <CustomCard
-            image='/usa.webp'
-            text='ameriť'
+            image='/eu.png'
+            text='Annual GDP in EU'
             color='blue'
-            description='Kolko HDP'
+            description={<>
+              <strong style={{ fontWeight: 'bold', fontSize: '1.2em' }}>{formatPrice(price, GDP_EU_ANNUAL)}</strong> <strong>annual GDP</strong> in whole EU are needed to be paid.</>}
           ></CustomCard>
           <CustomCard
-            image='/usa.webp'
-            text='ameriťka'
+            image='/svk.png'
+            text='Annual salaries in Slovakia'
             color='blue'
-            description='Kolko HDP'
+            description={<>
+              <strong style={{ fontWeight: 'bold', fontSize: '1.2em' }}>{formatPrice(price, SLOVAKIA_ANNUAL_SALARY)}</strong> <strong>annual salaries</strong> in Slovakia are needed to be paid.</>}
           ></CustomCard>
           <CustomCard
-            image='/usa.webp'
-            text='americ'
+            image='/iphone.jpg'
+            text='Iphones'
             color='blue'
-            description='Kolko HDP'
+            description={<>
+              The price is equal to <strong style={{ fontWeight: 'bold', fontSize: '1.2em' }}>{formatPrice(price, IPHONE_15_PRO_MAX)}</strong> <strong>Iphone 15 Pro Max</strong> phones.</>}
           ></CustomCard>
           <CustomCard
-            image='/usa.webp'
-            text='ameriťulka'
+            image='/fabia.jpg'
+            text='Skoda Fabias'
             color='blue'
-            description='Kolko HDP'
-          ></CustomCard>
-          <CustomCard
-            image='/usa.webp'
-            text='ameritisko'
-            color='blue'
-            description='Kolko HDP'
+            description={<>
+              The price is equal to <strong style={{ fontWeight: 'bold', fontSize: '1.2em' }}>{formatPrice(price, SKODA_FABIA_PRICE)}</strong> <strong>Skoda Fabias.</strong></>}
           ></CustomCard>
         </Section> 
         : ''

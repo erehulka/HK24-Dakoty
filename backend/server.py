@@ -7,7 +7,7 @@ CORS(app, resources={r"/data": {"origins": "*"}})
 @app.route('/data', methods=['POST'])
 def getData():
   data = request.json
-  result = data['years'] * data['degrees']
+  result = (100 / data['years']) * (1 + data['degrees']) * 841074206988
   return {"result": result}
  
 if __name__ == '__main__':
