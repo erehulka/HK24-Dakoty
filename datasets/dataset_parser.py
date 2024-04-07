@@ -85,3 +85,45 @@ print("-----------------------------------------------------")
 print(f"--- It costs {int(np.floor(total_price_per_degree_celsius / 1000000000000))} trillion dollars to raise ----")
 print("--- the Earth's temperature by one degree Celsius ---")
 print("-----------------------------------------------------")
+
+last_year_turnover = np.array(slovakia_fossil_fuel_df["Total consumption - TWh"] * slovakia_fossil_fuel_df["Total price"])[-1]
+def cost_of_temp_lowering(target_temperature_increase, number_of_years):
+    # calculates the loss of turnover in the fossil fuel industry needed to restrict the temperature raise in the given number of years
+    # assuming the turnover staying constant
+    target_turnover = last_year_turnover * number_of_years
+    projected_temperature_increase = target_turnover / total_price_per_degree_celsius
+    temperature_difference = projected_temperature_increase - target_temperature_increase
+    if temperature_difference <= 0:
+        # no loss of turnover
+        return(0)
+    return(total_price_per_degree_celsius * temperature_difference)
+
+temp_inc = 2.0
+c_years = 20
+
+print("-----------------------------------------------------")
+print(f"--- It would cost {int(np.floor(cost_of_temp_lowering(temp_inc, c_years) / 1000000000000))} trillion dollars in fossil fuel ----")
+print(f"--- industry turnover to restrict the temperature increase to {temp_inc} deg. Celsius in the next {c_years} years. ---")
+print("-----------------------------------------------------")
+
+prediction_data_df = pd.read_csv("fossil_fuels/predictinos_temp.csv")
+
+prediction_year_scale = np.array(prediction_data_df["year"]) - np.array(prediction_data_df["year"])[0]
+
+plt.title("The financial loss of fossil fuel industry turnover")
+plt.xlabel("Year")
+plt.ylabel("Trillions USD")
+
+number_of_scenarios = 3
+for i in range(1, number_of_scenarios + 1):
+    s_label = "scenario" + str(i)
+    cur_cumulative_cost = []
+    for j in range(len(np.array(prediction_data_df[s_label]))):
+        cur_cumulative_cost.append(cost_of_temp_lowering(np.array(prediction_data_df[s_label])[j] - np.array(prediction_data_df[s_label])[0], prediction_year_scale[j]))
+    plt.plot(prediction_data_df["year"], np.array(cur_cumulative_cost) / 1000000000000, label = "Scenario " + str(i))
+
+plt.legend()
+plt.show()
+
+
+
