@@ -1,5 +1,4 @@
 import { AppBar, Box, Button, FormControl, InputLabel, MenuItem, Select, SelectChangeEvent, Toolbar, Typography } from '@mui/material';
-import { blueGrey, orange } from '@mui/material/colors';
 import Section from './components/Section';
 import { useState } from 'react';
 import Slider from './components/Slider'
@@ -58,7 +57,7 @@ export default function App() {
       <AppBar 
         elevation={0}
         sx={{
-          backgroundColor: blueGrey[800]
+          backgroundColor: 'black'
         }}
       >
         <Toolbar>
@@ -91,10 +90,10 @@ export default function App() {
           display: "flex",
           flexDirection: "row",
           flex: 1,
-          backgroundColor: blueGrey[100]
+          backgroundColor: 'white'
         }}
       >
-        <Section bgColor={orange[200]}>
+        <Section bgColor='white'>
           <div>
             <Slider 
               min={5}
@@ -106,7 +105,7 @@ export default function App() {
             />
           </div>
         </Section>
-        <Section bgColor={orange[200]}>
+        <Section bgColor='white'>
           <div>
             <Slider
               min={0.1}
@@ -127,7 +126,7 @@ export default function App() {
           height: 50,
           flex: "none",
           color: 'white',
-          backgroundColor: orange[200],
+          backgroundColor: 'white',
           paddingBottom: '8px',
         }}
       >
@@ -158,7 +157,7 @@ export default function App() {
           height: 50,
           flex: "none",
           color: 'white',
-          backgroundColor: orange[200],
+          backgroundColor: 'white',
           paddingBottom: '8px',
         }}
       >
