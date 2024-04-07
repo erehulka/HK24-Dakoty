@@ -13,8 +13,8 @@ const IPHONE_15_PRO_MAX = 1270
 
 export default function App() {
   const [years, setYears] = useState<number>(10);
-  const [degrees, setDegrees] = useState<number>(0);
-  const [scenario, setScenario] = useState<string | undefined>(undefined);
+  const [degrees, setDegrees] = useState<number>(0.2);
+  const [scenario, setScenario] = useState<string | undefined>("SSP1-1.9");
   const [price, setPrice] = useState<number | undefined>(undefined);
 
   const handleYearsChange = (event: Event, newValue: number | number[]) => {
@@ -42,7 +42,9 @@ export default function App() {
   }
 
   const handleClick = (): void => {
-    setPrice(degrees * years);
+    if (!years || !degrees || !scenario) {
+      return
+    }
     const apiUrl: string = `http://127.0.0.1:5000/data`
 
     axios.post(apiUrl, {years, degrees, scenario})
@@ -142,7 +144,7 @@ export default function App() {
             label="Model"
             onChange={handleScenarioChange}
           >
-            <MenuItem value="SSP1-1.9">SSP1-1.9</MenuItem>
+            <MenuItem value="SSP1-1.9" selected>SSP1-1.9</MenuItem>
             <MenuItem value="SSP1-2.6">SSP1-2.6</MenuItem>
             <MenuItem value="SSP3-7.0">SSP3-7.0</MenuItem>
           </Select>
