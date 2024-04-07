@@ -1,4 +1,4 @@
-import { AppBar, Box, Button, Toolbar, Typography } from '@mui/material';
+import { AppBar, Box, Button, FormControl, InputLabel, MenuItem, Select, SelectChangeEvent, Toolbar, Typography } from '@mui/material';
 import { blueGrey, orange } from '@mui/material/colors';
 import Section from './components/Section';
 import { useState } from 'react';
@@ -13,7 +13,8 @@ const IPHONE_15_PRO_MAX = 1270
 
 export default function App() {
   const [years, setYears] = useState<number>(10);
-  const [degrees, setDegrees] = useState<number>(0);
+  const [degrees, setDegrees] = useState<number>(0.2);
+  const [scenario, setScenario] = useState<string | undefined>("SSP1-1.9");
   const [price, setPrice] = useState<number | undefined>(undefined);
 
   const handleYearsChange = (event: Event, newValue: number | number[]) => {
@@ -28,15 +29,25 @@ export default function App() {
     }
   };
 
+  const handleScenarioChange = (event: SelectChangeEvent<string>) => {
+    setScenario(event.target.value as string);
+  };
+
   const formatPrice = (price: number, constant: number): string => {
+    const result = price / constant
+    if (result > 10) {
+      return Math.round(result).toString()
+    }
     return (price / constant).toFixed(2)
   }
 
   const handleClick = (): void => {
-    setPrice(degrees * years);
+    if (!years || !degrees || !scenario) {
+      return
+    }
     const apiUrl: string = `http://127.0.0.1:5000/data`
 
-    axios.post(apiUrl, {years, degrees})
+    axios.post(apiUrl, {years, degrees, scenario})
       .then((res: AxiosResponse<{result: number}>) => {
         setPrice(res.data.result)
       })
@@ -120,11 +131,43 @@ export default function App() {
           paddingBottom: '8px',
         }}
       >
+        <FormControl
+          sx={{
+            width: '130px'
+          }}
+        >
+          <InputLabel id="model-select-label">Model</InputLabel>
+          <Select
+            labelId="model-select-label"
+            id="model-select"
+            value={scenario}
+            label="Model"
+            onChange={handleScenarioChange}
+          >
+            <MenuItem value="SSP1-1.9" selected>SSP1-1.9</MenuItem>
+            <MenuItem value="SSP1-2.6">SSP1-2.6</MenuItem>
+            <MenuItem value="SSP3-7.0">SSP3-7.0</MenuItem>
+          </Select>
+        </FormControl>
+      </Box>
+      <Box
+        sx={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          height: 50,
+          flex: "none",
+          color: 'white',
+          backgroundColor: orange[200],
+          paddingBottom: '8px',
+        }}
+      >
         <Button variant="contained" onClick={handleClick}>Submit</Button>
       </Box>
       {price 
         ? <Section bgColor='white'>
-          <Typography variant='h4' textAlign='center'>{price.toFixed(2)}€</Typography>
+          <Typography variant='h4' textAlign='center' fontWeight='bold'>{price.toFixed(2)}€</Typography>
+          <Typography variant='h5' textAlign='center'>Must be spent to reach this goal!</Typography>
           <CustomCard
             image='/eu.jpg'
             text='Annual GDP in EU'
@@ -141,14 +184,14 @@ export default function App() {
           ></CustomCard>
           <CustomCard
             image='/iphone.jpg'
-            text='Iphones'
+            text='iPhones'
             color='blue'
             description={<>
-              The price is equal to <strong style={{ fontWeight: 'bold', fontSize: '1.2em' }}>{formatPrice(price, IPHONE_15_PRO_MAX)}</strong> <strong>Iphone 15 Pro Max</strong> phones.</>}
+              The price is equal to <strong style={{ fontWeight: 'bold', fontSize: '1.2em' }}>{formatPrice(price, IPHONE_15_PRO_MAX)}</strong> <strong>iPhone 15 Pro Max</strong> phones.</>}
           ></CustomCard>
           <CustomCard
             image='/fabia.jpg'
-            text='Skoda Fabias'
+            text='Škoda Fabias'
             color='blue'
             description={<>
               The price is equal to <strong style={{ fontWeight: 'bold', fontSize: '1.2em' }}>{formatPrice(price, SKODA_FABIA_PRICE)}</strong> <strong>Skoda Fabias.</strong></>}
